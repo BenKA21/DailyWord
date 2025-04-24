@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Daily Spanish Word</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f2f2f2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
       color: white;
       display: flex;
       flex-direction: column;
@@ -17,79 +23,171 @@
       padding: 1rem;
     }
 
+    /* Base styles for all cards */
     .card {
-      background: #1a2a49;
+      background-color: #1a2a49;
       border-radius: 1rem;
-      padding: 1.5rem;
-      width: 90%;
+      padding: 1.5rem 1.2rem;
+      width: 100%;
       max-width: 400px;
+      margin-bottom: 1.5rem;
       text-align: center;
-      margin-bottom: 1rem;
     }
 
-    .word { font-size: 2rem; font-weight: bold; }
-    .pronunciation { color: #aaa; margin-bottom: 0.5rem; }
-    .sentence-es, .sentence-en, .translation {
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+    /* Apply a different background color only to the second card */
+    .sentence-card {
+      background-color: #19294a;
     }
 
-    .translation, .sentence-en {
+    .title {
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .word {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+
+    .pronunciation {
+      font-size: 1rem;
+      font-style: italic;
+      margin-bottom: 0.3rem;
+      color: #aaa;
+    }
+
+    .translation-wrapper,
+    .sentence-en-wrapper {
+      margin-top: 1rem;
+      cursor: pointer;
+    }
+
+    .reveal-text {
+      font-size: 0.9rem;
+      color: #bbb;
+      margin-bottom: 0.3rem;
+      transition: opacity 0.3s ease;
+    }
+
+    .translation,
+    .sentence-en {
+      font-size: 1.1rem;
+      color: #eee;
       filter: blur(8px);
       opacity: 0.5;
-      transition: all 0.4s ease;
-      cursor: pointer;
+      transition: filter 0.4s ease, opacity 0.4s ease;
     }
 
     .revealed {
       filter: none;
       opacity: 1;
-      cursor: default;
     }
 
-    .reveal-text { font-size: 0.9rem; color: #bbb; margin-bottom: 0.3rem; }
-    .hidden { display: none; }
+    .hidden {
+      display: none;
+    }
 
-    button {
-      padding: 0.6rem 1.2rem;
-      margin-top: 1rem;
-      border: none;
-      border-radius: 0.5rem;
-      background: #5566ff;
+    .sentence-es {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
       color: white;
-      font-size: 1rem;
+    }
+
+    .next-word-btn {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      background-color: #004502; /* Green */
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 1rem;
       cursor: pointer;
+      margin-top: 1.5rem;
+      transition: background-color 0.3s;
+      width: 160px;
+    }
+
+    .next-word-btn:hover {
+      background-color: #218838; /* Darker green on hover */
+    }
+
+    .next-word-btn span {
+      margin-left: 10px;
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        padding: 1rem;
+      }
+
+      .word {
+        font-size: 1.6rem;
+      }
+
+      .sentence-es {
+        font-size: 1.1rem;
+      }
+
+      .sentence-en,
+      .translation {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
 
   <div class="card">
-    <div class="word" id="word">...</div>
-    <div class="pronunciation" id="pronunciation"></div>
-    <div class="reveal-text" id="reveal-translation-text">Tap to reveal the English translation</div>
-    <div class="translation" id="translation"></div>
+    <div class="title">Random Word:</div>
+    <div class="word" id="word">FELIZ</div>
+    <div class="translation-wrapper reveal-wrapper">
+      <div class="reveal-text" id="reveal-translation-text">Tap to reveal the English translation</div>
+      <div class="translation reveal-target" id="translation">Happy</div>
+    </div>
   </div>
 
-  <div class="card">
-    <div class="sentence-es" id="sentence-es"></div>
-    <div class="reveal-text" id="reveal-sentence-text">Tap to reveal the English sentence</div>
-    <div class="sentence-en" id="sentence-en"></div>
+  <!-- Second div with a different background color -->
+  <div class="card sentence-card">
+    <div class="title">Example Sentence:</div>
+    <div class="sentence-es" id="sentence-es">ESTOY MUY FELIZ HOY</div>
+    <div class="sentence-en-wrapper reveal-wrapper">
+      <div class="reveal-text" id="reveal-sentence-text">Tap to reveal the English sentence</div>
+      <div class="sentence-en reveal-target" id="sentence-en">I am very happy today</div>
+    </div>
   </div>
 
-  <button id="next-word">Next Word</button>
+  <div>
+    <button id="next-word" class="next-word-btn">
+      Next Word
+      <span>&#8594;</span> <!-- Right arrow icon -->
+    </button>
+  </div>
 
   <script>
     let data = [];
     let currentIndex = 0;
 
     async function fetchWords() {
-      const res = await fetch('data/words.json'); // adjust if using an absolute URL
-      data = await res.json();
-      showWord();
+      try {
+        const res = await fetch('https://raw.githubusercontent.com/BenKA21/DailyWord/main/words.json'); // Correct raw URL
+        data = await res.json();
+        showWord();
+      } catch (error) {
+        console.error("Failed to fetch words:", error);
+      }
     }
 
     function showWord() {
+      if (!data.length) return;
+
       const entry = data[currentIndex];
 
       document.getElementById('word').textContent = entry.word.toUpperCase();
@@ -102,25 +200,32 @@
       document.getElementById('sentence-en').classList.remove('revealed');
       document.getElementById('reveal-translation-text').classList.remove('hidden');
       document.getElementById('reveal-sentence-text').classList.remove('hidden');
+
+      // Re-attach the reveal listeners
+      attachRevealListeners();
     }
 
-    // Reveal behavior
-    document.getElementById('translation').addEventListener('click', () => {
-      document.getElementById('translation').classList.add('revealed');
-      document.getElementById('reveal-translation-text').classList.add('hidden');
-    });
-
-    document.getElementById('sentence-en').addEventListener('click', () => {
-      document.getElementById('sentence-en').classList.add('revealed');
-      document.getElementById('reveal-sentence-text').classList.add('hidden');
-    });
-
+    // Handle the "Next Word" button click
     document.getElementById('next-word').addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % data.length;
-      showWord();
+      currentIndex = (currentIndex + 1) % data.length; // Increment index, loop back to 0 after the last word
+      showWord(); // Display the next word
     });
+
+    // Function to re-attach the event listeners for reveal action
+    function attachRevealListeners() {
+      document.getElementById('translation').addEventListener('click', () => {
+        document.getElementById('translation').classList.add('revealed');
+        document.getElementById('reveal-translation-text').classList.add('hidden');
+      });
+
+      document.getElementById('sentence-en').addEventListener('click', () => {
+        document.getElementById('sentence-en').classList.add('revealed');
+        document.getElementById('reveal-sentence-text').classList.add('hidden');
+      });
+    }
 
     fetchWords();
   </script>
+
 </body>
 </html>
