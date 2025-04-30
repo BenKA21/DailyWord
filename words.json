@@ -1,314 +1,170 @@
 [
   {
     "word": "de",
+    "pronunciation": "DEH",
     "translation": "of",
-    "sentence_es": "La casa de Juan es grande.",
-    "sentence_en": "Juan's house is big."
+    "sentence_es": "Este es un ejemplo con de.",
+    "sentence_en": "This is an example with de."
   },
   {
     "word": "la",
+    "pronunciation": "LAH",
     "translation": "the (feminine)",
-    "sentence_es": "La niña juega en el parque.",
-    "sentence_en": "The girl plays in the park."
+    "sentence_es": "Este es un ejemplo con la.",
+    "sentence_en": "This is an example with la."
   },
   {
     "word": "que",
+    "pronunciation": "KEH",
     "translation": "that / which",
-    "sentence_es": "Sé que estás aquí.",
-    "sentence_en": "I know that you are here."
+    "sentence_es": "Este es un ejemplo con que.",
+    "sentence_en": "This is an example with que."
   },
   {
     "word": "el",
+    "pronunciation": "EHL",
     "translation": "the (masculine)",
-    "sentence_es": "El perro corre rápido.",
-    "sentence_en": "The dog runs fast."
+    "sentence_es": "Este es un ejemplo con el.",
+    "sentence_en": "This is an example with el."
   },
   {
     "word": "en",
+    "pronunciation": "EHN",
     "translation": "in / on",
-    "sentence_es": "Estoy en casa.",
-    "sentence_en": "I am at home."
+    "sentence_es": "Este es un ejemplo con en.",
+    "sentence_en": "This is an example with en."
   },
   {
     "word": "y",
+    "pronunciation": "EE",
     "translation": "and",
-    "sentence_es": "Pedro y Ana van al cine.",
-    "sentence_en": "Pedro and Ana are going to the movies."
+    "sentence_es": "Tú y yo somos amigos.",
+    "sentence_en": "You and I are friends."
   },
   {
     "word": "a",
+    "pronunciation": "AH",
     "translation": "to",
     "sentence_es": "Voy a la escuela.",
-    "sentence_en": "I am going to school."
+    "sentence_en": "I go to school."
   },
   {
     "word": "los",
-    "translation": "the (masculine plural)",
+    "pronunciation": "LOHS",
+    "translation": "the (plural masculine)",
     "sentence_es": "Los libros están en la mesa.",
     "sentence_en": "The books are on the table."
   },
   {
     "word": "se",
-    "translation": "himself / herself / itself",
-    "sentence_es": "Se cayó en el suelo.",
-    "sentence_en": "He fell on the ground."
+    "pronunciation": "SEH",
+    "translation": "oneself / himself / herself / themselves",
+    "sentence_es": "Él se levantó temprano.",
+    "sentence_en": "He got up early."
   },
   {
     "word": "del",
-    "translation": "of the (masculine)",
+    "pronunciation": "DEHL",
+    "translation": "of the (contraction of 'de el')",
     "sentence_es": "El color del coche es rojo.",
     "sentence_en": "The color of the car is red."
   },
   {
     "word": "las",
-    "translation": "the (feminine plural)",
+    "pronunciation": "LAHS",
+    "translation": "the (plural feminine)",
     "sentence_es": "Las ventanas están abiertas.",
     "sentence_en": "The windows are open."
   },
   {
     "word": "un",
+    "pronunciation": "OON",
     "translation": "a / an (masculine)",
-    "sentence_es": "Tengo un amigo en Madrid.",
-    "sentence_en": "I have a friend in Madrid."
+    "sentence_es": "Este es un ejemplo con un.",
+    "sentence_en": "This is an example with un."
   },
   {
     "word": "por",
-    "translation": "for / by",
-    "sentence_es": "Gracias por tu ayuda.",
-    "sentence_en": "Thank you for your help."
+    "pronunciation": "POHR",
+    "translation": "by / for / through",
+    "sentence_es": "Este es un ejemplo con por.",
+    "sentence_en": "This is an example with por."
   },
   {
     "word": "con",
+    "pronunciation": "KOHN",
     "translation": "with",
-    "sentence_es": "Vengo con mi hermana.",
-    "sentence_en": "I'm coming with my sister."
+    "sentence_es": "Este es un ejemplo con con.",
+    "sentence_en": "This is an example with con."
   },
   {
     "word": "no",
+    "pronunciation": "NOH",
     "translation": "no / not",
-    "sentence_es": "No quiero salir hoy.",
-    "sentence_en": "I don't want to go out today."
+    "sentence_es": "Este es un ejemplo con no.",
+    "sentence_en": "This is an example with no."
   },
   {
     "word": "una",
+    "pronunciation": "OO-nah",
     "translation": "a / an (feminine)",
-    "sentence_es": "Vi una película buena.",
-    "sentence_en": "I saw a good movie."
+    "sentence_es": "Este es un ejemplo con una.",
+    "sentence_en": "This is an example with una."
   },
   {
     "word": "su",
-    "translation": "his / her / their",
-    "sentence_es": "Su casa es moderna.",
-    "sentence_en": "Their house is modern."
+    "pronunciation": "SOO",
+    "translation": "his / her / their / your (formal)",
+    "sentence_es": "Este es un ejemplo con su.",
+    "sentence_en": "This is an example with su."
   },
   {
     "word": "para",
+    "pronunciation": "PAH-rah",
     "translation": "for / in order to",
-    "sentence_es": "Este regalo es para ti.",
-    "sentence_en": "This gift is for you."
+    "sentence_es": "Este es un ejemplo con para.",
+    "sentence_en": "This is an example with para."
   },
   {
     "word": "es",
-    "translation": "is (he/she/it)",
-    "sentence_es": "Ella es inteligente.",
-    "sentence_en": "She is intelligent."
+    "pronunciation": "EHS",
+    "translation": "is (from 'ser')",
+    "sentence_es": "Este es un ejemplo con es.",
+    "sentence_en": "This is an example with es."
   },
   {
     "word": "al",
-    "translation": "to the (masculine)",
-    "sentence_es": "Voy al supermercado.",
-    "sentence_en": "I am going to the supermarket."
+    "pronunciation": "AHL",
+    "translation": "to the (contraction of 'a el')",
+    "sentence_es": "Este es un ejemplo con al.",
+    "sentence_en": "This is an example with al."
   },
   {
     "word": "lo",
-    "translation": "it / him",
-    "sentence_es": "Lo vi ayer.",
-    "sentence_en": "I saw him yesterday."
+    "pronunciation": "LOH",
+    "translation": "it / him (direct object)",
+    "sentence_es": "Este es un ejemplo con lo.",
+    "sentence_en": "This is an example with lo."
   },
   {
     "word": "como",
+    "pronunciation": "KOH-moh",
     "translation": "like / as / how",
-    "sentence_es": "Corre como un atleta.",
-    "sentence_en": "He runs like an athlete."
+    "sentence_es": "Este es un ejemplo con como.",
+    "sentence_en": "This is an example with como."
   },
   {
     "word": "más",
+    "pronunciation": "MAHS",
     "translation": "more",
-    "sentence_es": "Quiero más agua.",
-    "sentence_en": "I want more water."
+    "sentence_es": "Este es un ejemplo con más.",
+    "sentence_en": "This is an example with more."
   },
   {
     "word": "pero",
+    "pronunciation": "PEH-roh",
     "translation": "but",
-    "sentence_es": "Me gusta el café, pero prefiero el té.",
-    "sentence_en": "I like coffee, but I prefer tea."
-  },
-  {
-    "word": "sus",
-    "translation": "his / her / their (plural)",
-    "sentence_es": "Sus amigos son divertidos.",
-    "sentence_en": "His friends are fun."
-  },
-  {
-    "word": "le",
-    "translation": "to him / to her",
-    "sentence_es": "Le di el libro.",
-    "sentence_en": "I gave him the book."
-  },
-  {
-    "word": "ha",
-    "translation": "has (he/she)",
-    "sentence_es": "Ella ha terminado.",
-    "sentence_en": "She has finished."
-  },
-  {
-    "word": "me",
-    "translation": "me / myself",
-    "sentence_es": "Me gusta nadar.",
-    "sentence_en": "I like to swim."
-  },
-  {
-    "word": "si",
-    "translation": "if",
-    "sentence_es": "Si llueve, no salgo.",
-    "sentence_en": "If it rains, I won’t go out."
-  },
-  {
-    "word": "sin",
-    "translation": "without",
-    "sentence_es": "No puedo vivir sin ti.",
-    "sentence_en": "I can’t live without you."
-  },
-  {
-    "word": "sobre",
-    "translation": "about / on",
-    "sentence_es": "Hablamos sobre la película.",
-    "sentence_en": "We talked about the movie."
-  },
-  {
-    "word": "este",
-    "translation": "this (masculine)",
-    "sentence_es": "Este coche es nuevo.",
-    "sentence_en": "This car is new."
-  },
-  {
-    "word": "ya",
-    "translation": "already / now",
-    "sentence_es": "Ya terminé la tarea.",
-    "sentence_en": "I already finished the homework."
-  },
-  {
-    "word": "entre",
-    "translation": "between / among",
-    "sentence_es": "Está entre los libros.",
-    "sentence_en": "It’s among the books."
-  },
-  {
-    "word": "cuando",
-    "translation": "when",
-    "sentence_es": "Cuando llegue, te llamo.",
-    "sentence_en": "When I arrive, I’ll call you."
-  },
-  {
-    "word": "todo",
-    "translation": "everything / all",
-    "sentence_es": "Todo está bien.",
-    "sentence_en": "Everything is fine."
-  },
-  {
-    "word": "esta",
-    "translation": "this (feminine)",
-    "sentence_es": "Esta comida es deliciosa.",
-    "sentence_en": "This food is delicious."
-  },
-  {
-    "word": "ser",
-    "translation": "to be",
-    "sentence_es": "Quiero ser médico.",
-    "sentence_en": "I want to be a doctor."
-  },
-  {
-    "word": "son",
-    "translation": "are (they)",
-    "sentence_es": "Ellos son amigos.",
-    "sentence_en": "They are friends."
-  },
-  {
-    "word": "dos",
-    "translation": "two",
-    "sentence_es": "Tengo dos hermanos.",
-    "sentence_en": "I have two brothers."
-  },
-  {
-    "word": "también",
-    "translation": "also / too",
-    "sentence_es": "Yo también quiero ir.",
-    "sentence_en": "I also want to go."
-  },
-  {
-    "word": "fue",
-    "translation": "was (he/she)",
-    "sentence_es": "Fue un día largo.",
-    "sentence_en": "It was a long day."
-  },
-  {
-    "word": "había",
-    "translation": "there was / there were",
-    "sentence_es": "Había mucha gente.",
-    "sentence_en": "There were many people."
-  },
-  {
-    "word": "era",
-    "translation": "was (description)",
-    "sentence_es": "Era un buen estudiante.",
-    "sentence_en": "He was a good student."
-  },
-  {
-    "word": "muy",
-    "translation": "very",
-    "sentence_es": "Estoy muy cansado.",
-    "sentence_en": "I am very tired."
-  },
-  {
-    "word": "años",
-    "translation": "years",
-    "sentence_es": "Tengo veinte años.",
-    "sentence_en": "I am twenty years old."
-  },
-  {
-    "word": "hasta",
-    "translation": "until / even",
-    "sentence_es": "Esperé hasta las cinco.",
-    "sentence_en": "I waited until five."
-  },
-  {
-    "word": "desde",
-    "translation": "from / since",
-    "sentence_es": "Vivo aquí desde 2010.",
-    "sentence_en": "I have lived here since 2010."
-  },
-  {
-    "word": "está",
-    "translation": "is (location/emotion)",
-    "sentence_es": "La tienda está cerrada.",
-    "sentence_en": "The store is closed."
-  },
-  {
-    "word": "mi",
-    "translation": "my",
-    "sentence_es": "Mi casa es tu casa.",
-    "sentence_en": "My house is your house."
-  },
-  {
-    "word": "porque",
-    "translation": "because",
-    "sentence_es": "Estoy aquí porque me gusta.",
-    "sentence_en": "I’m here because I like it."
-  },
-  {
-    "word": "qué",
-    "translation": "what",
-    "sentence_es": "¿Qué hora es?",
-    "sentence_en": "What time is it?"
+    "sentence_es": "Este es un ejemplo con pero.",
+    "sentence_en": "This is an example with pero."
   }
 ]
