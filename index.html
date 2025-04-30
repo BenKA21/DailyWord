@@ -98,6 +98,11 @@
       color: white;
     }
 
+    .highlight {
+      color: #28a745; /* Green color for highlighting */
+      font-weight: bold;
+    }
+
     .next-word-btn {
       display: flex;
       align-items: flex-end;
@@ -148,6 +153,7 @@
   <div class="card">
     <div class="title">Random Word:</div>
     <div class="word" id="word">FELIZ</div>
+    <div class="pronunciation" id="pronunciation">feh-LEES</div>
     <div class="translation-wrapper reveal-wrapper">
       <div class="reveal-text" id="reveal-translation-text">Tap to reveal the English translation</div>
       <div class="translation reveal-target" id="translation">Happy</div>
@@ -191,9 +197,13 @@
       const entry = data[currentIndex];
 
       document.getElementById('word').textContent = entry.word.toUpperCase();
+      document.getElementById('pronunciation').textContent = `(${entry.pronunciation})`;
       document.getElementById('translation').textContent = entry.translation;
       document.getElementById('sentence-es').textContent = entry.sentence_es;
       document.getElementById('sentence-en').textContent = entry.sentence_en;
+
+      // Highlight the word in the Spanish sentence and the translation in the English sentence
+      highlightText(entry.word, entry.translation, entry.sentence_es, entry.sentence_en);
 
       // Reset reveal states
       document.getElementById('translation').classList.remove('revealed');
@@ -203,6 +213,20 @@
 
       // Re-attach the reveal listeners
       attachRevealListeners();
+    }
+
+    // Function to highlight the word and translation in the sentences
+    function highlightText(word, translation, sentence_es, sentence_en) {
+      const sentenceEsElement = document.getElementById('sentence-es');
+      const sentenceEnElement = document.getElementById('sentence-en');
+
+      // Highlight the Spanish word in the Spanish sentence
+      const highlightedSentenceEs = sentence_es.replace(new RegExp(`\\b${word}\\b`, 'gi'), `<span class="highlight">${word}</span>`);
+      sentenceEsElement.innerHTML = highlightedSentenceEs;
+
+      // Highlight the English translation in the English sentence
+      const highlightedSentenceEn = sentence_en.replace(new RegExp(`\\b${translation}\\b`, 'gi'), `<span class="highlight">${translation}</span>`);
+      sentenceEnElement.innerHTML = highlightedSentenceEn;
     }
 
     // Handle the "Next Word" button click
