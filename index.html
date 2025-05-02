@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Spanish Word</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>1000 Common Words</title>
   <style>
     * {
       box-sizing: border-box;
@@ -18,25 +18,102 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
       min-height: 100vh;
-      padding: 1rem;
+      padding: 60px 1rem 1rem;
     }
 
-    /* Base styles for all cards */
+    /* HEADER */
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #5c5c5c;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+      color: white;
+      z-index: 1000;
+    }
+
+    .menu-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.2s ease; /* Add transition for smooth animation */
+    }
+
+    .menu-btn:active {
+      transform: scale(0.9); /* Scale down slightly when pressed */
+    }
+
+    .info-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .header-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    /* DROPDOWN MENU */
+    .dropdown-menu {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      background-color: #444;
+      color: white;
+      width: 200px;
+      display: none;
+      flex-direction: column;
+      z-index: 999;
+    }
+
+    .dropdown-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .dropdown-menu li {
+      border-bottom: 1px solid #666;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 12px 16px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #666;
+    }
+
+    /* CARD STYLES */
     .card {
       background-color: #1a2a49;
       border-radius: 1rem;
       padding: 1.5rem 1.2rem;
       width: 100%;
       max-width: 400px;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem; /* Reduce the bottom margin */
       text-align: center;
+      margin-top: 2rem;
     }
 
-    /* Apply a different background color only to the second card */
     .sentence-card {
       background-color: #19294a;
+      margin-top: 0.5rem; /* Reduce the top margin for the second card */
     }
 
     .title {
@@ -99,15 +176,15 @@
     }
 
     .highlight {
-      color: #28a745; /* Green color for highlighting */
+      color: #28a745;
       font-weight: bold;
     }
 
     .next-word-btn {
       display: flex;
-      align-items: flex-end;
-      justify-content: flex-end;
-      background-color: #004502; /* Green */
+      align-items: center;
+      justify-content: center;
+      background-color: #004502;
       color: white;
       padding: 0.8rem 1.5rem;
       font-size: 1.1rem;
@@ -116,11 +193,12 @@
       cursor: pointer;
       margin-top: 1.5rem;
       transition: background-color 0.3s;
-      width: 160px;
+      position: relative;
+      float: right; /* Position the button to the right */
     }
 
     .next-word-btn:hover {
-      background-color: #218838; /* Darker green on hover */
+      background-color: #218838;
     }
 
     .next-word-btn span {
@@ -150,6 +228,20 @@
 </head>
 <body>
 
+  <header class="top-bar">
+    <button class="menu-btn" id="menu-toggle">&#9776;</button>
+    <span class="header-title">1000 Common Words</span>
+    <button class="info-btn">i</button>
+  </header>
+
+  <nav class="dropdown-menu" id="dropdown-menu">
+    <ul>
+      <li><a href="index.html">Random Word</a></li>
+      <li><a href="#">Change language</a></li>
+      <li><a href="quiz.html">Quiz</a></li> <!-- Updated link -->
+    </ul>
+  </nav>
+
   <div class="card">
     <div class="title">Random Word:</div>
     <div class="word" id="word">FELIZ</div>
@@ -160,7 +252,6 @@
     </div>
   </div>
 
-  <!-- Second div with a different background color -->
   <div class="card sentence-card">
     <div class="title">Example Sentence:</div>
     <div class="sentence-es" id="sentence-es">ESTOY MUY FELIZ HOY</div>
@@ -173,17 +264,24 @@
   <div>
     <button id="next-word" class="next-word-btn">
       Next Word
-      <span>&#8594;</span> <!-- Right arrow icon -->
+      <span>&#8594;</span>
     </button>
   </div>
 
   <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const dropdownMenu = document.getElementById('dropdown-menu');
+
+    menuToggle.addEventListener('click', () => {
+      dropdownMenu.style.display = dropdownMenu.style.display === 'flex' ? 'none' : 'flex';
+    });
+
     let data = [];
     let currentIndex = 0;
 
     async function fetchWords() {
       try {
-        const res = await fetch('https://raw.githubusercontent.com/BenKA21/DailyWord/main/words.json'); // Correct raw URL
+        const res = await fetch('https://raw.githubusercontent.com/BenKA21/DailyWord/main/words.json');
         data = await res.json();
         showWord();
       } catch (error) {
@@ -202,40 +300,32 @@
       document.getElementById('sentence-es').textContent = entry.sentence_es;
       document.getElementById('sentence-en').textContent = entry.sentence_en;
 
-      // Highlight the word in the Spanish sentence and the translation in the English sentence
       highlightText(entry.word, entry.translation, entry.sentence_es, entry.sentence_en);
 
-      // Reset reveal states
       document.getElementById('translation').classList.remove('revealed');
       document.getElementById('sentence-en').classList.remove('revealed');
       document.getElementById('reveal-translation-text').classList.remove('hidden');
       document.getElementById('reveal-sentence-text').classList.remove('hidden');
 
-      // Re-attach the reveal listeners
       attachRevealListeners();
     }
 
-    // Function to highlight the word and translation in the sentences
     function highlightText(word, translation, sentence_es, sentence_en) {
       const sentenceEsElement = document.getElementById('sentence-es');
       const sentenceEnElement = document.getElementById('sentence-en');
 
-      // Highlight the Spanish word in the Spanish sentence
       const highlightedSentenceEs = sentence_es.replace(new RegExp(`\\b${word}\\b`, 'gi'), `<span class="highlight">${word}</span>`);
       sentenceEsElement.innerHTML = highlightedSentenceEs;
 
-      // Highlight the English translation in the English sentence
       const highlightedSentenceEn = sentence_en.replace(new RegExp(`\\b${translation}\\b`, 'gi'), `<span class="highlight">${translation}</span>`);
       sentenceEnElement.innerHTML = highlightedSentenceEn;
     }
 
-    // Handle the "Next Word" button click
     document.getElementById('next-word').addEventListener('click', () => {
-      currentIndex = (currentIndex + 1) % data.length; // Increment index, loop back to 0 after the last word
-      showWord(); // Display the next word
+      currentIndex = (currentIndex + 1) % data.length;
+      showWord();
     });
 
-    // Function to re-attach the event listeners for reveal action
     function attachRevealListeners() {
       document.getElementById('translation').addEventListener('click', () => {
         document.getElementById('translation').classList.add('revealed');
