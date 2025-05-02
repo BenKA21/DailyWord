@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f2f2f2;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      background-color: #5c5c5c;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+      color: white;
+      z-index: 1000;
+    }
+
+    .menu-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: transform 0.2s ease; /* Add transition for smooth animation */
+    }
+
+    .menu-btn:active {
+      transform: scale(0.9); /* Scale down slightly when pressed */
+    }
+
+    .info-btn {
+      background: none;
+      border: none;
+      color: white;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .header-title {
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    .dropdown-menu {
+      position: fixed;
+      top: 50px;
+      left: 0;
+      background-color: #444;
+      color: white;
+      width: 200px;
+      display: none;
+      flex-direction: column;
+      z-index: 999;
+    }
+
+    .dropdown-menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .dropdown-menu li {
+      border-bottom: 1px solid #666;
+    }
+
+    .dropdown-menu a {
+      display: block;
+      padding: 12px 16px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .dropdown-menu a:hover {
+      background-color: #666;
+    }
+
+    .quiz-container {
+      background-color: #1a2a49;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
+      max-width: 400px;
+      width: 100%;
+      margin-top: 70px; /* Add margin to avoid overlap with the header */
+    }
+
+    .progress-bar {
+      background-color: #444;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      margin-bottom: 1rem;
+      height: 20px;
+      width: 100%;
+      position: relative;
+    }
+
+    .progress-bar-fill {
+      background-color: #28a745;
+      height: 100%;
+      width: 0%;
+      transition: width 0.3s ease;
+    }
+
+    .progress-bar-text {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.9rem;
+      color: white;
+      line-height: 20px;
+    }
+
+    .quiz-question {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .quiz-option {
+      background-color: #19294a;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      padding: 1rem;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .quiz-option:hover {
+      background-color: #444;
+    }
+
+    .quiz-option.correct {
+      background-color: #28a745;
+    }
+
+    .quiz-option.incorrect {
+      background-color: #dc3545;
+    }
+
+    .next-word-btn {
+      display: none;
+      margin-top: 1.5rem;
+      background-color: #004502;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .next-word-btn:hover {
+      background-color: #218838;
+    }
+
+    .score-container {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="top-bar">
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+    <div class="header-title">Quiz</div>
+    <button class="info-btn" onclick="alert('Quiz Instructions: Select the correct translation for each word.')">i</button>
+  </header>
+
+  <!-- Dropdown Menu -->
+  <nav class="dropdown-menu" id="dropdown-menu">
+    <ul>
+      <li><a href="index.html">Random Word</a></li>
+      <li><a href="#">Change language</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+  </nav>
+
+  <!-- Quiz Content -->
+  <div class="quiz-container">
+    <div class="progress-bar">
+      <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      <div class="progress-bar-text" id="progress-bar-text">0/10</div>
+    </div>
+    <div class="quiz-question" id="quiz-question">Loading...</div>
+    <div class="quiz-options" id="quiz-options"></div>
+    <button class="next-word-btn" id="next-word-btn">
+      Next Word <span>&#8594;</span>
+    </button>
+    <div class="score-container" id="score-container" style="display: none;"></div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('dropdown-menu');
+      menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+    }
+
+    let data = [];
+    let currentWordIndex = 0;
+    const totalWords = 10;
+    let selectedWords = [];
+    let score = 0;
+
+    async function fetchWords() {
+      try {
+        const res = await fetch('https://raw.githubusercontent.com/BenKA21/DailyWord/main/words.json');
+        data = await res.json();
+        startQuiz();
+      } catch (error) {
+        console.error("Failed to fetch words:", error);
+      }
+    }
+
+    function startQuiz() {
+      selectedWords = [];
+      while (selectedWords.length < totalWords) {
+        const randomWord = data[Math.floor(Math.random() * data.length)];
+        if (!selectedWords.includes(randomWord)) {
+          selectedWords.push(randomWord);
+        }
+      }
+      currentWordIndex = 0;
+      score = 0;
+      updateProgressBar();
+      loadQuiz();
+    }
+
+    function loadQuiz() {
+      const correctWord = selectedWords[currentWordIndex];
+      const correctTranslation = correctWord.translation;
+
+      // Generate 3 random incorrect options
+      const incorrectOptions = [];
+      while (incorrectOptions.length < 3) {
+        const randomWord = data[Math.floor(Math.random() * data.length)];
+        if (randomWord.translation !== correctTranslation && !incorrectOptions.includes(randomWord.translation)) {
+          incorrectOptions.push(randomWord.translation);
+        }
+      }
+
+      // Combine correct and incorrect options and shuffle them
+      const options = [...incorrectOptions, correctTranslation].sort(() => Math.random() - 0.5);
+
+      // Display the question and options
+      document.getElementById('quiz-question').textContent = `What is the English translation of "${correctWord.word}"?`;
+      const optionsContainer = document.getElementById('quiz-options');
+      optionsContainer.innerHTML = '';
+
+      options.forEach(option => {
+        const button = document.createElement('button');
+        button.textContent = option;
+        button.classList.add('quiz-option');
+        button.addEventListener('click', () => handleAnswer(button, option === correctTranslation));
+        optionsContainer.appendChild(button);
+      });
+
+      document.getElementById('next-word-btn').style.display = 'none';
+    }
+
+    function handleAnswer(button, isCorrect) {
+      const options = document.querySelectorAll('.quiz-option');
+      options.forEach(option => option.disabled = true); // Disable all buttons after selection
+
+      if (isCorrect) {
+        button.classList.add('correct');
+        score++;
+      } else {
+        button.classList.add('incorrect');
+        // Highlight the correct answer
+        document.querySelectorAll('.quiz-option').forEach(option => {
+          if (option.textContent === selectedWords[currentWordIndex].translation) {
+            option.classList.add('correct');
+          }
+        });
+      }
+
+      document.getElementById('next-word-btn').style.display = 'block';
+    }
+
+    function nextWord() {
+      currentWordIndex++;
+      if (currentWordIndex < totalWords) {
+        updateProgressBar();
+        loadQuiz();
+      } else {
+        showScore();
+      }
+    }
+
+    function updateProgressBar() {
+      const progress = ((currentWordIndex + 1) / totalWords) * 100;
+      document.getElementById('progress-bar-fill').style.width = `${progress}%`;
+      document.getElementById('progress-bar-text').textContent = `${currentWordIndex + 1}/${totalWords}`;
+    }
+
+    function showScore() {
+      document.getElementById('quiz-question').style.display = 'none';
+      document.getElementById('quiz-options').style.display = 'none';
+      document.getElementById('next-word-btn').style.display = 'none';
+      document.getElementById('score-container').style.display = 'block';
+      document.getElementById('score-container').textContent = `You scored ${score}/${totalWords}!`;
+    }
+
+    document.getElementById('next-word-btn').addEventListener('click', nextWord);
+
+    fetchWords();
+  </script>
+</body>
+</html>
