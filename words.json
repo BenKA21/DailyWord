@@ -1,170 +1,3502 @@
 [
-  {
-    "word": "de",
-    "pronunciation": "DEH",
-    "translation": "of",
-    "sentence_es": "Este es un ejemplo con de.",
-    "sentence_en": "This is an example with de."
-  },
-  {
-    "word": "la",
-    "pronunciation": "LAH",
-    "translation": "the (feminine)",
-    "sentence_es": "Este es un ejemplo con la.",
-    "sentence_en": "This is an example with la."
-  },
-  {
-    "word": "que",
-    "pronunciation": "KEH",
-    "translation": "that / which",
-    "sentence_es": "Este es un ejemplo con que.",
-    "sentence_en": "This is an example with que."
-  },
-  {
-    "word": "el",
-    "pronunciation": "EHL",
-    "translation": "the (masculine)",
-    "sentence_es": "Este es un ejemplo con el.",
-    "sentence_en": "This is an example with el."
-  },
-  {
-    "word": "en",
-    "pronunciation": "EHN",
-    "translation": "in / on",
-    "sentence_es": "Este es un ejemplo con en.",
-    "sentence_en": "This is an example with en."
-  },
-  {
-    "word": "y",
-    "pronunciation": "EE",
-    "translation": "and",
-    "sentence_es": "Tú y yo somos amigos.",
-    "sentence_en": "You and I are friends."
-  },
-  {
-    "word": "a",
-    "pronunciation": "AH",
-    "translation": "to",
-    "sentence_es": "Voy a la escuela.",
-    "sentence_en": "I go to school."
-  },
-  {
-    "word": "los",
-    "pronunciation": "LOHS",
-    "translation": "the (plural masculine)",
-    "sentence_es": "Los libros están en la mesa.",
-    "sentence_en": "The books are on the table."
-  },
-  {
-    "word": "se",
-    "pronunciation": "SEH",
-    "translation": "oneself / himself / herself / themselves",
-    "sentence_es": "Él se levantó temprano.",
-    "sentence_en": "He got up early."
-  },
-  {
-    "word": "del",
-    "pronunciation": "DEHL",
-    "translation": "of the (contraction of 'de el')",
-    "sentence_es": "El color del coche es rojo.",
-    "sentence_en": "The color of the car is red."
-  },
-  {
-    "word": "las",
-    "pronunciation": "LAHS",
-    "translation": "the (plural feminine)",
-    "sentence_es": "Las ventanas están abiertas.",
-    "sentence_en": "The windows are open."
-  },
-  {
-    "word": "un",
-    "pronunciation": "OON",
-    "translation": "a / an (masculine)",
-    "sentence_es": "Este es un ejemplo con un.",
-    "sentence_en": "This is an example with un."
-  },
-  {
-    "word": "por",
-    "pronunciation": "POHR",
-    "translation": "by / for / through",
-    "sentence_es": "Este es un ejemplo con por.",
-    "sentence_en": "This is an example with por."
-  },
-  {
-    "word": "con",
-    "pronunciation": "KOHN",
-    "translation": "with",
-    "sentence_es": "Este es un ejemplo con con.",
-    "sentence_en": "This is an example with con."
-  },
-  {
-    "word": "no",
-    "pronunciation": "NOH",
-    "translation": "no / not",
-    "sentence_es": "Este es un ejemplo con no.",
-    "sentence_en": "This is an example with no."
-  },
-  {
-    "word": "una",
-    "pronunciation": "OO-nah",
-    "translation": "a / an (feminine)",
-    "sentence_es": "Este es un ejemplo con una.",
-    "sentence_en": "This is an example with una."
-  },
-  {
-    "word": "su",
-    "pronunciation": "SOO",
-    "translation": "his / her / their / your (formal)",
-    "sentence_es": "Este es un ejemplo con su.",
-    "sentence_en": "This is an example with su."
-  },
-  {
-    "word": "para",
-    "pronunciation": "PAH-rah",
-    "translation": "for / in order to",
-    "sentence_es": "Este es un ejemplo con para.",
-    "sentence_en": "This is an example with para."
-  },
-  {
-    "word": "es",
-    "pronunciation": "EHS",
-    "translation": "is (from 'ser')",
-    "sentence_es": "Este es un ejemplo con es.",
-    "sentence_en": "This is an example with es."
-  },
-  {
-    "word": "al",
-    "pronunciation": "AHL",
-    "translation": "to the (contraction of 'a el')",
-    "sentence_es": "Este es un ejemplo con al.",
-    "sentence_en": "This is an example with al."
-  },
-  {
-    "word": "lo",
-    "pronunciation": "LOH",
-    "translation": "it / him (direct object)",
-    "sentence_es": "Este es un ejemplo con lo.",
-    "sentence_en": "This is an example with lo."
-  },
-  {
-    "word": "como",
-    "pronunciation": "KOH-moh",
-    "translation": "like / as / how",
-    "sentence_es": "Este es un ejemplo con como.",
-    "sentence_en": "This is an example with como."
-  },
-  {
-    "word": "más",
-    "pronunciation": "MAHS",
-    "translation": "more",
-    "sentence_es": "Este es un ejemplo con más.",
-    "sentence_en": "This is an example with more."
-  },
-  {
-    "word": "pero",
-    "pronunciation": "PEH-roh",
-    "translation": "but",
-    "sentence_es": "Este es un ejemplo con pero.",
-    "sentence_en": "This is an example with pero."
-  }
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande.",
+"sentence_en": "My friend's house is big."
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy.",
+"sentence_en": "I don't want to go out today."
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda.",
+"sentence_en": "I’m going to the store."
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa.",
+"sentence_en": "The book is on the table."
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café.",
+"sentence_en": "I want a coffee."
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda.",
+"sentence_en": "Thanks for your help."
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?.",
+"sentence_en": "What are you doing?."
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana.",
+"sentence_en": "I’m going with my sister."
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta.",
+"sentence_en": "I need an answer."
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo.",
+"sentence_en": "His car is new."
+},
+{
+"word": "de",
+"pronunciation": "deh",
+"translation": "of/from",
+"sentence_es": "La casa de mi amigo es grande",
+"sentence_en": "My friend's house is big"
+},
+{
+"word": "no",
+"pronunciation": "noh",
+"translation": "no",
+"sentence_es": "No quiero salir hoy",
+"sentence_en": "I don't want to go out today"
+},
+{
+"word": "a",
+"pronunciation": "ah",
+"translation": "to",
+"sentence_es": "Voy a la tienda",
+"sentence_en": "I’m going to the store"
+},
+{
+"word": "en",
+"pronunciation": "en",
+"translation": "in/on",
+"sentence_es": "El libro está en la mesa",
+"sentence_en": "The book is on the table"
+},
+{
+"word": "un",
+"pronunciation": "oon",
+"translation": "a/an",
+"sentence_es": "Quiero un café",
+"sentence_en": "I want a coffee"
+},
+{
+"word": "por",
+"pronunciation": "pohr",
+"translation": "for/by",
+"sentence_es": "Gracias por tu ayuda",
+"sentence_en": "Thanks for your help"
+},
+{
+"word": "qué",
+"pronunciation": "keh",
+"translation": "what",
+"sentence_es": "¿Qué haces?",
+"sentence_en": "What are you doing?"
+},
+{
+"word": "con",
+"pronunciation": "kohn",
+"translation": "with",
+"sentence_es": "Voy con mi hermana",
+"sentence_en": "I’m going with my sister"
+},
+{
+"word": "una",
+"pronunciation": "OO-nah",
+"translation": "a/an (feminine)",
+"sentence_es": "Necesito una respuesta",
+"sentence_en": "I need an answer"
+},
+{
+"word": "su",
+"pronunciation": "soo",
+"translation": "his/her/their/your (formal)",
+"sentence_es": "Su coche es nuevo",
+"sentence_en": "His car is new"
+}
 ]
